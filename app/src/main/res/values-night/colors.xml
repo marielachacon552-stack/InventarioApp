@@ -1,0 +1,7 @@
+<resources>
+    <color name="pink_primary">#F5A4C5</color><color name="pink_on_primary">#54102D</color>
+    <color name="pink_background">#21151C</color><color name="pink_surface">#302129</color>
+    <color name="pink_soft">#492B3A</color><color name="pink_border">#694253</color>
+    <color name="pink_text">#FFE7F0</color><color name="pink_muted">#D9B2C3</color>
+    <color name="pink_hero_end">#61374B</color>
+</resources>

@@ -1,5 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color><color name="white">#FFFFFFFF</color>
+    <color name="pink_primary">#AD3264</color><color name="pink_on_primary">#FFFFFF</color>
+    <color name="pink_background">#FFF7FA</color><color name="pink_surface">#FFFFFF</color>
+    <color name="pink_soft">#FCE3ED</color><color name="pink_border">#EBC8D6</color>
+    <color name="pink_text">#432333</color><color name="pink_muted">#795667</color>
+    <color name="pink_hero_end">#F9D3E3</color>
 </resources>

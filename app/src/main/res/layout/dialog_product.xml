@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".MainActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+        android:id="@+id/input_name_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textSize="16sp"
+        android:paddingVertical="8dp"
+        android:textColor="@color/pink_text" />
+        <EditText
+        android:id="@+id/input_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapSentences"
+        android:singleLine="true"
+        android:minHeight="48dp"
+        android:text=""
+        android:importantForAutofill="no"
+        android:backgroundTint="@color/pink_primary"
+        android:paddingHorizontal="12dp" />
+        <TextView
+        android:id="@+id/input_price_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Precio en lempiras"
+        android:textSize="16sp"
+        android:paddingVertical="8dp"
+        android:textColor="@color/pink_text" />
+        <EditText
+        android:id="@+id/input_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:singleLine="true"
+        android:minHeight="48dp"
+        android:text=""
+        android:importantForAutofill="no"
+        android:backgroundTint="@color/pink_primary"
+        android:paddingHorizontal="12dp" />
+        <TextView
+        android:id="@+id/input_stock_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stock inicial"
+        android:textSize="16sp"
+        android:paddingVertical="8dp"
+        android:textColor="@color/pink_text" />
+        <EditText
+        android:id="@+id/input_stock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:singleLine="true"
+        android:minHeight="48dp"
+        android:text="0"
+        android:importantForAutofill="no"
+        android:backgroundTint="@color/pink_primary"
+        android:paddingHorizontal="12dp" />
+        <TextView
+        android:id="@+id/input_barcode_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Código de barras (opcional)"
+        android:textSize="16sp"
+        android:paddingVertical="8dp"
+        android:textColor="@color/pink_text" />
+        <EditText
+        android:id="@+id/input_barcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:singleLine="true"
+        android:minHeight="48dp"
+        android:text=""
+        android:importantForAutofill="no"
+        android:backgroundTint="@color/pink_primary"
+        android:paddingHorizontal="12dp" />
+        <TextView
+        android:id="@+id/input_minimum_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stock mínimo"
+        android:textSize="16sp"
+        android:paddingVertical="8dp"
+        android:textColor="@color/pink_text" />
+        <EditText
+        android:id="@+id/input_minimum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:singleLine="true"
+        android:minHeight="48dp"
+        android:text="5"
+        android:importantForAutofill="no"
+        android:backgroundTint="@color/pink_primary"
+        android:paddingHorizontal="12dp" />
+        <TextView
+        android:id="@+id/current_stock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:paddingVertical="8dp"
+        android:textColor="@color/pink_text" />
+    </LinearLayout>
+</ScrollView>
